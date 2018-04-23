@@ -26,14 +26,14 @@ contract owned {
 
 // --- @dev Address of the Super Owner and Bounty Holder
 
-    address internal super_owner = 0xb299B8c7c6BA2F5Bf4E19571253bd75Ce7DB9F9f;
-    address internal bountyAddr = 0xb299B8c7c6BA2F5Bf4E19571253bd75Ce7DB9F9f;
+    address internal super_owner = 0x00000000;
+    address internal bountyAddr = 0x00000000;
 
 // --- @dev Addresses of the founders for withdraw after gracePeriod is over
 
     address[2] internal foundersAddresses = [
-        0xAA127e4cB0201547593083f175041B1E3922a293,
-        0xCeA72562d69c4D816CF2e7B7382e938Bb6AB523F
+        0x00000000,
+        0x00000000
     ];
 
 // --- @dev Constructor of parent contract
